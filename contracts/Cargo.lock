@@ -809,7 +809,7 @@ name = "battle-client"
 version = "1.1.0"
 dependencies = [
  "battle-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -1102,7 +1102,7 @@ name = "car-races-client"
 version = "0.1.0"
 dependencies = [
  "car-races-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -1354,7 +1354,7 @@ name = "concert-client"
 version = "0.1.0"
 dependencies = [
  "concert-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -1523,7 +1523,7 @@ name = "counter-client"
 version = "0.1.0"
 dependencies = [
  "counter-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -1936,7 +1936,7 @@ name = "dex-client"
 version = "1.1.0"
 dependencies = [
  "dex-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -2089,7 +2089,7 @@ name = "dynamic-nft-client"
 version = "0.1.0"
 dependencies = [
  "dynamic-nft-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -2357,7 +2357,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "39cab71617ae0d63f51a36d69f866391735b51691dbda63cf6f96d042b63efeb"
 dependencies = [
  "libc",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.0",
 ]
 
 [[package]]
@@ -2415,7 +2415,7 @@ dependencies = [
 [[package]]
 name = "extended-vft"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vft-app",
  "sails-idl-gen",
@@ -2425,7 +2425,7 @@ dependencies = [
 [[package]]
 name = "extended-vft-app"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "sails-rs",
@@ -2435,7 +2435,7 @@ dependencies = [
 [[package]]
 name = "extended-vft-client"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vft-app",
  "sails-client-gen",
@@ -2446,7 +2446,7 @@ dependencies = [
 [[package]]
 name = "extended-vmt"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vmt-app",
  "sails-idl-gen",
@@ -2456,7 +2456,7 @@ dependencies = [
 [[package]]
 name = "extended-vmt-app"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "sails-rs",
@@ -2466,7 +2466,7 @@ dependencies = [
 [[package]]
 name = "extended-vmt-client"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vmt-app",
  "sails-client-gen",
@@ -2477,7 +2477,7 @@ dependencies = [
 [[package]]
 name = "extended-vnft"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vnft-app",
  "sails-idl-gen",
@@ -2487,7 +2487,7 @@ dependencies = [
 [[package]]
 name = "extended-vnft-app"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "sails-rs",
@@ -2497,7 +2497,7 @@ dependencies = [
 [[package]]
 name = "extended-vnft-client"
 version = "0.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "extended-vnft-app",
  "sails-client-gen",
@@ -2932,7 +2932,7 @@ name = "galactic-express-client"
 version = "0.1.0"
 dependencies = [
  "galactic-express-app",
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -2963,9 +2963,9 @@ dependencies = [
 
 [[package]]
 name = "gbuiltin-bls381"
-version = "1.9.1"
+version = "1.9.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a656429a0232b203919bdf518c6a996c2f7e9aaeaaa323c71b0eae746201b8ca"
+checksum = "5d5444ba234b1c9cae20f9ed21ef036d995550e257b41f3c14d294401821ace9"
 dependencies = [
  "ark-bls12-381 0.4.0",
  "ark-ec 0.4.2",
@@ -5105,7 +5105,21 @@ dependencies = [
  "downcast",
  "fragile",
  "lazy_static",
- "mockall_derive",
+ "mockall_derive 0.12.1",
+ "predicates",
+ "predicates-tree",
+]
+
+[[package]]
+name = "mockall"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "39a6bfcc6c8c7eed5ee98b9c3e33adc726054389233e201c95dab2d41a3839d2"
+dependencies = [
+ "cfg-if",
+ "downcast",
+ "fragile",
+ "mockall_derive 0.13.1",
  "predicates",
  "predicates-tree",
 ]
@@ -5115,6 +5129,18 @@ name = "mockall_derive"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "af7cbce79ec385a1d4f54baa90a76401eb15d9cab93685f62e7e9f942aa00ae2"
+dependencies = [
+ "cfg-if",
+ "proc-macro2",
+ "quote",
+ "syn 2.0.106",
+]
+
+[[package]]
+name = "mockall_derive"
+version = "0.13.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "25ca3004c2efe9011bd4e461bd8256445052b9615405b4f7ea43fc8ca5c20898"
 dependencies = [
  "cfg-if",
  "proc-macro2",
@@ -5158,7 +5184,7 @@ dependencies = [
 name = "multisig-wallet-client"
 version = "1.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "multisig-wallet-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -5216,7 +5242,7 @@ dependencies = [
 name = "nft-marketplace-client"
 version = "1.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "nft-marketplace-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -5453,7 +5479,7 @@ dependencies = [
 name = "oracle-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "oracle-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -5728,7 +5754,7 @@ dependencies = [
 name = "ping-pong-client"
 version = "1.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "ping-pong-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -5775,7 +5801,7 @@ dependencies = [
  "ark-scale",
  "ark-serialize 0.5.0",
  "bincode 2.0.1",
- "gbuiltin-bls381 1.9.1",
+ "gbuiltin-bls381 1.9.2",
  "gclient",
  "gear-core",
  "gstd",
@@ -5823,7 +5849,7 @@ dependencies = [
 name = "poker-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.13.1",
  "poker-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -5856,7 +5882,7 @@ dependencies = [
 name = "poker-factory-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.13.1",
  "poker-factory-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -6107,7 +6133,7 @@ dependencies = [
 name = "proxy-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "proxy-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -6166,7 +6192,7 @@ dependencies = [
 name = "pts-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.13.1",
  "pts-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -6175,9 +6201,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.40"
+version = "1.0.41"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1885c039570dc00dcb4ff087a89e185fd56bae234ddc7f056a945bf36467248d"
+checksum = "ce25767e7b499d1b604768e7cde645d14cc8584231ea6b295e9c9eb22c02e1d1"
 dependencies = [
  "proc-macro2",
 ]
@@ -6276,7 +6302,7 @@ dependencies = [
 name = "randomness-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "randomness-app",
  "sails-client-gen",
  "sails-idl-gen",
@@ -6560,7 +6586,7 @@ dependencies = [
  "errno",
  "libc",
  "linux-raw-sys 0.11.0",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.0",
 ]
 
 [[package]]
@@ -6871,7 +6897,7 @@ dependencies = [
  "hashbrown 0.15.5",
  "hex",
  "log",
- "mockall",
+ "mockall 0.12.1",
  "parity-scale-codec",
  "paste",
  "pin-project-lite",
@@ -8209,7 +8235,7 @@ dependencies = [
 name = "staking-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -8504,7 +8530,7 @@ dependencies = [
  "getrandom 0.3.3",
  "once_cell",
  "rustix 1.1.2",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.0",
 ]
 
 [[package]]
@@ -8607,7 +8633,7 @@ dependencies = [
 name = "tic-tac-toe-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -9180,7 +9206,7 @@ dependencies = [
 name = "vara-man-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -9212,7 +9238,7 @@ dependencies = [
 name = "varatube-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -9228,7 +9254,7 @@ checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
 [[package]]
 name = "vft-service"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "log",
@@ -9246,7 +9272,7 @@ checksum = "051eb1abcf10076295e815102942cc58f9d5e3b4560e46e53c21e8ff6f3af7b1"
 [[package]]
 name = "vmt-service"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "log",
@@ -9258,7 +9284,7 @@ dependencies = [
 [[package]]
 name = "vnft-service"
 version = "1.1.0"
-source = "git+https://github.com/gear-foundation/standards/#44c366e0485485644ceb6ee59140fd0ae5c8851b"
+source = "git+https://github.com/gear-foundation/standards/#6d9abdcd4dd97697a40c082f2f250a0836dc8f26"
 dependencies = [
  "gstd",
  "log",
@@ -9290,7 +9316,7 @@ dependencies = [
 name = "w3bstreaming-client"
 version = "1.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.12.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
@@ -9966,7 +9992,7 @@ version = "0.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c2a7b1c03c876122aa43f3020e6c3c3ee5c05081c9a00739faf7503aeba10d22"
 dependencies = [
- "windows-sys 0.60.2",
+ "windows-sys 0.61.0",
 ]
 
 [[package]]
@@ -10605,7 +10631,7 @@ dependencies = [
 name = "zk-verification-app"
 version = "0.1.0"
 dependencies = [
- "gbuiltin-bls381 1.9.1",
+ "gbuiltin-bls381 1.9.2",
  "hex-literal 0.4.1",
  "sails-rs",
 ]
@@ -10614,7 +10640,7 @@ dependencies = [
 name = "zk-verification-client"
 version = "0.1.0"
 dependencies = [
- "mockall",
+ "mockall 0.13.1",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
