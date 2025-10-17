@@ -109,11 +109,11 @@ extended-vnft = { git = "https://github.com/gear-foundation/standards/"}
 
 # External
 
-primitive-types = { version = "0.12", default-features = false }
+primitive-types = { version = "0.14", default-features = false }
 sp-core = { version = "21.0.0", default-features = false, features = ["full_crypto", "sp-externalities"] }
 sp-core-hashing = { version = "10", default-features = false }
 tokio = "1"
-hex-literal = "0.4"
+hex-literal = "1.0"
 hex = { version = "0.4", default-features = false }
 schnorrkel = { version = "0.10", default-features = false, features = ["u64_backend"] }
 quote = "1"
@@ -124,12 +124,12 @@ parity-scale-codec = { version = "3", default-features = false }
 ark-bls12-381 = "0.5.0"
 ark-ec = { version = "0.5", default-features = false }
 ark-ff = { version = "0.5", default-features = false }
-ark-scale = "=0.0.12"
+ark-scale = "=0.0.13"
 ark-serialize = "0.5.0"
 ark-ed-on-bls12-381-bandersnatch = { version = "0.5", default-features = false }
 ark-std = "0.5"
-gbuiltin-bls381 = "1.8.0"
-serde = { version = "1.0.219", features = ["derive"] }
+gbuiltin-bls381 = "1.9.2"
+serde = { version = "1.0.228", features = ["derive"] }
 serde_json = "1.0.140"
 bincode = "2.0.1"
 rand = "0.9.1"
