@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Log in to the GitHub Container Registry
         uses: docker/login-action@master
@@ -44,7 +44,7 @@ jobs:
         if: success()
       
       - name: Upload Docker Image Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: docker-image
           path: image.tar
@@ -58,14 +58,14 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Build
         working-directory: contracts
         run: 'cargo build --release --workspace;'
 
       - name: 'Upload Artifact'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: wasm
           path: |
@@ -74,7 +74,7 @@ jobs:
             contracts/target/wasm32-gear/release/*.idl
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           name: ${{ inputs.version }}
           tag_name: ${{ inputs.version }}
