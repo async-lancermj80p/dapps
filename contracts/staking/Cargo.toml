@@ -16,7 +16,7 @@ extended-vft.workspace = true
 staking = { path = ".", features = ["wasm-binary"] }
 staking-client = { path = "client" }
 sails-rs = { workspace = true, features = ["gtest"] }
-tokio = { version = "1.41", features = ["rt", "macros"] }
+tokio = { version = "1.48", features = ["rt", "macros"] }
 extended-vft-client.workspace = true
 
 [features]
