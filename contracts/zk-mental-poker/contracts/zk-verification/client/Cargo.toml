@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-mockall = { version = "0.12", optional = true }
+mockall = { version = "0.14", optional = true }
 sails-rs.workspace = true
 
 [build-dependencies]
